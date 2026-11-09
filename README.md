@@ -27,7 +27,7 @@ Informatics Study Program, Universitas Pembangunan Nasional "Veteran" Jawa Timur
 
 ```bash
 pip install -r requirements.txt
-python 01_download_data.py          # optional: the downloaded CSV files are already included
+python 01_download_data.py          
 python 03_merge_data.py && python 04_create_lag.py && python 05_handle_missing.py
 python 06_feature_selection.py && python 07_split_data.py && python 08_normalize_data.py
 python 09_create_sliding_window.py
