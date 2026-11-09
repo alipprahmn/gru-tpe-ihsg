@@ -1,0 +1,13 @@
+# Versions used for the robustness experiments (scripts 21-25).
+# The original experiments (scripts 01-19) were run with Keras 3.15.1.
+python>=3.11
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+yfinance
+tensorflow==2.21.0
+keras==3.15.1
+optuna==5.0.0
+statsmodels==0.15.0
